@@ -1,0 +1,23 @@
+/*h1{
+     color:aqua;
+     background-color: #4899d7;
+}
+body{
+    background-color: #0f0e0f;
+}
+h4{
+     color:rgb(203, 97, 9);
+     background-color: #4899d7;
+}*/
+*{
+    color:bisque;
+}
+#Internal{
+    background-color: #4899d7;
+    padding: 20px;
+    border-radius: 10px;
+}
+.parent{
+    background-color: blue;
+    color: white;
+}

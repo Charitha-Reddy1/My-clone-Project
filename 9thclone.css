@@ -1,0 +1,204 @@
+        .clone{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        body{
+            background-color: black;
+        }
+        .home{
+            margin-left:50px;
+            font-size:25px;
+            margin-right:15px;
+            margin-top: 35px;
+        }
+        .home:hover{
+            text-decoration:wavy;
+            background-color: rgb(22, 186, 240);
+            border-radius:2px ;
+            width:80px;
+            text-align: center;
+        }
+        .mov{
+            margin-left:20px;
+            font-size:25px;
+            margin-top: 35px;
+        }
+        .mov:hover{
+            text-decoration:wavy;
+            background-color: rgb(22, 186, 240);
+            border-radius:2px ;
+            width:80px;
+            text-align: center;
+        }
+        .show{
+            margin-left:25px;
+            font-size:25px;
+            margin-top: 35px;
+        }
+        .show:hover{
+            text-decoration:wavy;
+            background-color: rgb(22, 186, 240);
+            border-radius:2px ;
+            width:120px;
+            text-align: center;
+        }
+        .live{
+            margin-left:20px;
+            font-size:25px;
+            margin-top: 35px;
+        }
+        .live:hover{
+            text-decoration:wavy;
+            background-color: rgb(22, 186, 240);
+            border-radius:2px ;
+            width:100px;
+            text-align: center;
+        }
+        .slash{
+            margin-left:20px;
+            font-size:40px;
+            margin-bottom: 40px;
+        }
+        .plogo{
+            color: white;
+            margin-left:30px;
+            width:60px;
+            height: 35px;
+            margin-top: 37px;
+        }
+        .he{
+            position:fixed;
+            display: flex;
+            flex-direction:row;
+            margin-bottom:150px; 
+            width:100%;
+            background: repeating-linear-gradient(to right,rgb(135, 195, 215),black,rgb(90, 162, 186),black,lightblue);
+            row-gap: 15px;
+        }
+        .fa-magnifying-glass{
+            color: white;
+            margin-left:550px;
+            font-size:25px;
+           margin-top: 40px;
+        }
+        .fa-angle-down{
+            color: white;
+            margin-left:2px;
+            font-size:25px;
+           margin-top: 40px;
+        }
+        .lang{
+            margin-left:25px;
+            font-size:25px;
+            color:white;
+            margin-top:40px;
+        }
+        .fa-list{
+            color: white;
+            margin-left:15px;
+            font-size:25px;
+           margin-top: 40px;
+        }
+        .fa-user{
+            color: white;
+            margin-left:20px;
+            font-size:25px;
+           margin-top: 40px;
+        }
+        .joinprime{
+            color: white;
+            font-size: 20px;
+            margin-left: 35px;
+            margin-top: 25px;
+            border-radius:3px;
+            color:white;
+            background-color:rgb(22, 186, 240);
+            width:100px;
+            text-align:center;
+            padding:5px;
+            height:50px;
+        }
+        .tvshow{
+            color:white;
+            font-size: 10px;
+            font-style: courier;
+            display:flex;
+            flex-direction: row;
+            margin-left:20px;
+            margin-top: 20px;
+        }
+        .pic{
+            border-radius: 15px;
+            gap:10px;
+            margin-right:15px;
+        }
+        .pic:hover{
+            transform: scale(1.2);
+            transition:transform 0.5s;
+        }
+        .movies{
+         
+            color:white;
+            font-size: 10px;
+            font-style: courier;
+            display:flex;
+            flex-direction: row;
+            margin-left:20px;
+            margin-top: 20px;
+        }
+        .bolly{
+           
+            color:white;
+            font-size: 10px;
+            font-style: courier;
+            display:flex;
+            flex-direction: row;
+            margin-left:20px;
+            margin-top: 20px;
+            margin-bottom:60px;
+        }
+        .showtit{
+            color:white;
+            font-style:italic;
+            margin-left:20px;
+            margin-top:150px;
+        }
+        .bm{
+            color:white;
+            font-style:italic;
+            margin-left:20px;
+            margin-top:50px;
+        }
+        .movi{
+            color:white;
+            font-style:italic;
+            margin-left:20px;
+            margin-top:50px; 
+        }
+        .hor{
+            color:white;
+            font-style:italic;
+            margin-left:20px;
+            margin-top:20px;
+            margin-bottom: 20px;
+        }
+        .horror{
+            display:flex;
+            flex-direction: row;
+        }
+        .tumbbad{
+            width:250px;
+            height:350px;
+            margin-left:20px ;
+            border-radius: 15px;
+            margin-bottom:100px;
+            margin-right:10px;
+        }
+         .tumbbad:hover{
+          
+        transform: scale(1.2);
+            transition:transform 0.5s;
+
+        } 
+       

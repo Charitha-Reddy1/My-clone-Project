@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+       .container{
+        height:100px;
+        text-align: center;
+        padding:20px;
+        width:200px;
+        background-color: lightseagreen;
+        animation: transform 5s infinite;
+        background-image: url(lamb.jpg);
+        background-size: cover;
+       } 
+       @keyframes col{
+        from{background-color: lightseagreen;}
+        to{background-color: lightcoral;}
+       }
+       @keyframes bgcolor{
+            0%{background-color: lightseagreen;}
+            25%{background-color: aqua;}
+            50%{background-color: lightsalmon;}
+            75%{background-color: magenta;}
+            100%{background-color: orangered;}
+       }
+       @keyframes transform{
+            0%{transform: translateX(150px);}
+            25%{transform: translateY(150px);}
+            50%{transform: rotate(90deg);}
+            75%{transform: translateX(300px);}
+            85%{transform: translateY(400px);}
+       }
+    </style>
+</head>
+<body>
+    <div class=container>
+        Animation</div>
+</body>
+</html>
